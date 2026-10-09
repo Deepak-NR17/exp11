@@ -3,14 +3,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "akshatha29/app-image"
+        DOCKER_IMAGE = "deepaknr17/imagename3"
     }
 
     stages {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/akshathavishal2901/final.git'
+                git 'https://github.com/Deepak-NR17/exp11.git'
             }
         }
 
